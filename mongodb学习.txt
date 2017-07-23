@@ -1,0 +1,17 @@
+﻿1,下载网站
+https://www.mongodb.com/downloads
+教程
+http://www.runoob.com/mongodb/mongodb-tutorial.html
+
+2，指定数据文件路径命令
+mongod --dbpath d:\test\mongodb\data
+必须保证d:\test\mongodb\data目录存在
+
+如果路径中存在空格，用双引号。
+mongod --dbpath "d:\test\mongo db data"
+
+命令行中执行mongod
+看到"waiting for connections on port 27017"消息，表示是启动成功
+
+3，客户端连接命令
+mongo
