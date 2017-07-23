@@ -1,0 +1,2 @@
+1，指定数mongod.exe --dbpath=C:\dev_tools\MongoDB\data\db --directoryperdb --logpath=C:\dev_tools\MongoDB\data\logs --logappend据存储文件
+mongod.exe --dbpath=C:\dev_tools\MongoDB\data\db --directoryperdb --logpath=C:\dev_tools\MongoDB\data\logs --logappend
